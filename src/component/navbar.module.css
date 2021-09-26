@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'b-vahid';
+    src:url('../resources/font/b-vahid/B-Vahid-Bold_0.woff') format('woff'),
+        url('../resources/font/b-vahid/B-Vahid-Bold_0.woff2') format('woff2'),
+        url('../resources/font/b-vahid/B-Vahid-Bold_0.svg') format('svg'),
+        url('../resources/font/b-vahid/B-Vahid-Bold_0.eot'),
+        url('../resources/font/b-vahid/B-Vahid-Bold_0.eot?#iefix') format('embedded-opentype'),
+        url('../resources/font/b-vahid/B-Vahid-Bold_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.header {
+    height: 50px;
+    width: 100%;
+    position: fixed ;
+    font-family: "b-vahid";
+    margin: 0px 0px 0px 0px;
+    background-color:rgb(243, 243, 243);
+    direction: rtl;
+}
+.nav{ 
+    float: right;
+    margin: -8px 0px 0px 0px ;
+}
+
+.item{
+    padding: 0px 20px 0px 20px ;
+    margin: -10px 15px 10px 15px;
+    list-style: none;
+    display: inline-block;
+    background-color: rgba(56, 195, 241, 0.774);
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+.item:hover {background-color: deepskyblue;box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.658);}
+
+.logocon {
+    float: left;
+    height: 40px;
+    margin: 0px 0px 0px 10px;
+}
+.logo{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+}
