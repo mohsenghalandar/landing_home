@@ -10,38 +10,75 @@
     font-style: normal;
     font-display: swap;
 }
+.mm{
+    color:#e7ecefff ;
+    color:#274c77ff ;
+    color:#6096baff ;
+    color:#a3cef1ff ;
+    color:#8b8c89ff ;
+
+
+}
+
 .header {
-    height: 50px;
+    height: 70px;
     width: 100%;
     position: fixed ;
     font-family: "b-vahid";
     margin: 0px 0px 0px 0px;
     background-color:rgb(243, 243, 243);
     direction: rtl;
+    color: #274c77ff;
 }
 .nav{ 
     float: right;
-    margin: -8px 0px 0px 0px ;
+    margin: 8px 0px 0px 0px ;
 }
-
+.symbol{
+    display: inline-block;
+    float: right;
+    margin: 18px 40px auto 5px;
+    padding: 0px 0px 0px 50px;
+    border-left: 1px solid silver;
+}
 .item{
     padding: 0px 20px 0px 20px ;
-    margin: -10px 15px 10px 15px;
+    margin: -10px 0px 10px 15px;
     list-style: none;
     display: inline-block;
-    background-color: rgba(56, 195, 241, 0.774);
+    background-color: #a3cef1ff;
     border-radius: 5px 5px 5px 5px;
     cursor: pointer;
 }
-.item:hover {background-color: deepskyblue;box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.658);}
-
+.item:hover {background-color: #6096baff ;box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.658);}
 .logocon {
-    float: left;
+
     height: 40px;
-    margin: 0px 0px 0px 10px;
+    margin: 10px 0px 0px 10px;
 }
 .logo{
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    font-weight:lighter;
     width: 50px;
     height:50px;
     border-radius: 50%;
+}
+.login{
+    display: inline-block;
+    float: left;
+    margin: 10px 0px 0px 5px;
+    transition: 0.5s;
+    color: rgba(0, 0, 0, 0.795);
+    border: rgba(0, 0, 0, 0) solid 1px;
+    padding: 0px 15px 0px 15px;
+    cursor: pointer;
+
+}
+.login:hover{
+    border: 1px solid deepskyblue;
+    color: black;
+    padding: 0px 15px 0px 15px;
+    border-radius: 5px;
 }
