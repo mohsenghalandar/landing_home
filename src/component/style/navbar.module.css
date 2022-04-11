@@ -1,34 +1,36 @@
 @font-face {
     font-family: 'b-vahid';
-    src:url('../resources/font/b-vahid/B-Vahid-Bold_0.woff') format('woff'),
-        url('../resources/font/b-vahid/B-Vahid-Bold_0.woff2') format('woff2'),
-        url('../resources/font/b-vahid/B-Vahid-Bold_0.svg') format('svg'),
-        url('../resources/font/b-vahid/B-Vahid-Bold_0.eot'),
-        url('../resources/font/b-vahid/B-Vahid-Bold_0.eot?#iefix') format('embedded-opentype'),
-        url('../resources/font/b-vahid/B-Vahid-Bold_0.ttf') format('truetype');
+    src:url('../../resources/font/b-vahid/B-Vahid-Bold_0.woff') format('woff'),
+        url('../../resources/font/b-vahid/B-Vahid-Bold_0.woff2') format('woff2'),
+        url('../../resources/font/b-vahid/B-Vahid-Bold_0.svg') format('svg'),
+        url('../../resources/font/b-vahid/B-Vahid-Bold_0.eot'),
+        url('../../resources/font/b-vahid/B-Vahid-Bold_0.eot?#iefix') format('embedded-opentype'),
+        url('../../resources/font/b-vahid/B-Vahid-Bold_0.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 .mm{
-    color:#e7ecefff ;
-    color:#274c77ff ;
-    color:#6096baff ;
-    color:#a3cef1ff ;
-    color:#8b8c89ff ;
-
-
+    color:#e7ecef ;
+    color:#274c77 ;
+    color:#6096ba ;
+    color:#a3cef1 ;
+    color:#8b8c89 ;
 }
-
 .header {
+    margin: auto;
     height: 70px;
     width: 100%;
     position: fixed ;
+    font-size: large;
+    top:0px;
+    left: 50%;
+    transform: translate(-50%,0);
     font-family: "b-vahid";
-    margin: 0px 0px 0px 0px;
     background-color:rgb(243, 243, 243);
     direction: rtl;
     color: #274c77ff;
+    border-radius:5px ;
 }
 .nav{ 
     float: right;
@@ -48,9 +50,11 @@
     display: inline-block;
     background-color: #a3cef1ff;
     border-radius: 5px 5px 5px 5px;
+    transition: 0.5s;
     cursor: pointer;
 }
-.item:hover {background-color: #6096baff ;box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.658);}
+
+.item:hover {box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.658);}
 .logocon {
 
     height: 40px;

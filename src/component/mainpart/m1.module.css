@@ -1,0 +1,41 @@
+.mm{
+    color:#e7ecef ;
+    color:#274c77 ;
+    color:#6096ba ;
+    color:#d2e2f0 ;
+    color:#8b8c89 ;
+}
+.main{
+
+    text-align: center;
+   
+}
+.picture{
+    margin: auto;
+    border: black 1px solid;
+    display: inline-block;
+    width: 45%;
+    margin: 100px 0px 0px 0px;
+    
+    
+}
+.picture img{
+    width: 100%;
+}
+.text{
+    text-align: right;
+    float: right;
+    border: black 1px solid;
+    display: inline-block;
+    width: 45%;
+    margin: 100px 0px 0px 0px;
+
+    color: #ffffff;
+
+}  
+.title{
+    margin:150px 100px 0px 0px;
+}
+.pp{
+    margin:20px 100px 0px 0px;
+}

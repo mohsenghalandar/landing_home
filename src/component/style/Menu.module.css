@@ -1,0 +1,15 @@
+.mm{
+    color:#e7ecefff ;
+    color:#274c77ff ;
+    color:#6096baff ;
+    color:#a3cef1ff ;
+    color:#8b8c89ff ;
+}
+.main{
+    position: absolute;
+    color: #274c77ff;
+    right: 15%;
+    padding: 50px 50px 50px 50px;
+    width: 150px;
+    background-color: white;
+}

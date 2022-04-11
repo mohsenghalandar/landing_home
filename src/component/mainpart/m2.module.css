@@ -1,0 +1,33 @@
+.mm{
+    color:#e7ecef ;
+    color:#274c77 ;
+    color:#0553ac ;
+    color:#bee5ff ;
+    color:#d2e2f0 ;
+    color:#8b8c89 ;
+}
+.main{
+    border: 1px black solid;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-image: url('../../resources/image/wave.svg');
+}
+.item{
+    
+    background-color: #274c77ce;
+    border-radius: 8px;
+    padding: 15px 0px 5px 5px;
+    width: 15%;
+}
+
+.icon{
+    width: 50%;
+    height: 35%;
+    float: right;
+    filter: invert(99%) sepia(100%) saturate(7237%) hue-rotate(173deg) brightness(101%) contrast(101%);
+    
+}

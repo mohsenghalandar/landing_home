@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'isans';
+    src:url('../../resources/font/iransans/Sans.woff') format('woff'),
+        url('../../resources/font/iransans/Sans.woff2') format('woff2'),
+        url('../../resources/font/iransans/Sans.svg') format('svg'),
+        url('../../resources/font/iransans/Sans.eot'),
+        url('../../resources/font/iransans/Sans.eot?#iefix') format('embedded-opentype'),
+        url('../../resources/font/iransans/Sans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.main{
+    font-family: 'isans';
+    background-image: linear-gradient(to right bottom, #e7ecef, #b2c3cf, #819ab1, #537294, #274c77);
+    padding-top: 50px;
+}
