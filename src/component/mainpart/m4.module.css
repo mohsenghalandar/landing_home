@@ -1,0 +1,31 @@
+.main{
+    width: 100%;
+    padding-top: 50px;
+    background-image: linear-gradient( #e7ecef, #b2c3cf, #819ab1, #537294, #274c77);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.container{
+    position: relative;
+    width: 15%;
+    background-color: #537294;
+    text-align: center;
+    color: #e7ecef;
+    padding: 20px;
+    height: 200px;
+    border-radius: 12px;
+}
+.pic{
+    width: 60%;
+    height:20%;
+    filter: invert(92%) sepia(93%) saturate(30%) hue-rotate(254deg) brightness(107%) contrast(100%);
+
+}
+.num{
+    font-size: 20px;
+}
+.title{
+    font-size: 18px;
+}

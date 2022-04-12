@@ -12,12 +12,9 @@
 }
 .picture{
     margin: auto;
-    border: black 1px solid;
     display: inline-block;
     width: 45%;
-    margin: 100px 0px 0px 0px;
-    
-    
+    margin: 100px 0px 0px 0px;  
 }
 .picture img{
     width: 100%;
@@ -25,11 +22,9 @@
 .text{
     text-align: right;
     float: right;
-    border: black 1px solid;
     display: inline-block;
     width: 45%;
     margin: 100px 0px 0px 0px;
-
     color: #ffffff;
 
 }  

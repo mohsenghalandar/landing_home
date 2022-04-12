@@ -1,6 +1,6 @@
 import React , {Component, useState} from 'react';
 import style from "./style/navbar.module.css";
-import logo from "../resources/image/mamad-power.jpg";
+
 import { BiUserCircle } from 'react-icons/bi';
 import Menu from './menu';
 
@@ -18,7 +18,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className={style.logocon} >
-                <BiUserCircle className={style.logo} src={logo} alt="our band name" title="Hi,there 😍👌">ورود</BiUserCircle>
+                <BiUserCircle className={style.logo} alt="our band name" title="Hi,there 😍👌">ورود</BiUserCircle>
                 <p className={style.login}>ورود</p>
             </div>
             {

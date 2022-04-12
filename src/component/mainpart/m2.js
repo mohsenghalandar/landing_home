@@ -11,7 +11,7 @@ import style from './m2.module.css'
 
 const M2 = () => {
     const data = [
-        {pic:design,name:'design',title:"طراحی و مشاوره",text:'مشاوره در زمینه طراحی انواع سازه'},
+        {pic:design,name:'design',title:"طراحی و مشاوره",text:' مشاوره در زمینه طراحی انواع سازه'},
         {pic:building,name:'building',title:"نظارت و اجرا",text:'اجرا و نظارت سازه های سبک و شنکین'},
         {pic:trendy,name:'trendy',title:"ترند و طرح های بروز",text:'استفاده از طرح ها مطرح بین الملی وبروز با تکنولوژی'},
         {pic:low,name:'quality',title:"بهترین متریال",text:'تهیه و استفاده از یهترین برندهای داخلی و خارجی'},
