@@ -1,0 +1,31 @@
+
+.main{
+    font-family: 'iransans';
+    width: 100%;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 0.623);
+    background-color: #274c77;
+    text-align: center;
+    
+}
+.item{
+    text-decoration: none;
+    text-align: right;
+    height: 150px;
+    display: inline-block;
+    direction: rtl;
+    margin: 15px 10px 25px 10px;
+    padding: 0px 10px 25px 10px;
+}
+.item li{
+    cursor: pointer;
+    margin: 5px 0px 0px 5px;
+    font-size: small;
+    transition: 0.5s;
+}
+.item li:hover{
+    color: white;
+}
+.item h3{
+    color: whitesmoke;
+}
